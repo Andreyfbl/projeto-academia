@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="prata.css"
+    <title>Formulário</title>
+</head>
+<body>
+    <div>
+        <h1 id="titulo">Formulário Plano Prata</h1>
+        <p id="subtitulo">Complete as informações</p>
+        <br>
+    </div>
+
+    <form>
+        <fieldset class="grupo">
+            <div>
+                <label for="nome"><strong>Nome</strong></label>
+                <input type="text" name="Nome" id="nome" required>
+            </div>
+
+            <div class="campo">
+                <label for="Sobrenome">Sobrenome</label>
+                <input type="text" name="Sobrenome" id="Sobrenome" required>
+            </div>
+        </fieldset>
+
+        <div class="campo">
+            <label for="email">Email</label>
+            <input type="email" nome="email" id="email" required>
+        </div>
+
+        <div>
+            <label>Qual será o seu horário de treino?</label>
+            <label>
+                <input type="radio" nome="devweb" value="Manhã">Manhã
+            </label>
+            <label>
+                <input type="=radio" name="devweb" value="Tarde">Tarde
+            </label>
+            <label>
+                <input type="radio" name="devweb" value="Noite">Noite
+            </label>
+        </div>
+
+        <div>
+            <label>Como você se identifica?</label>
+            <select id="Senioridade">
+                <option selected disabled value="">Selecione</option>
+                <option>masculino</option>
+                <option>feminino</option>
+                <option>outro</option>
+            </select>
+        </div>    
+
+        <fieldset class="grupo">
+        <div id="checkbox">
+            <label>Selecione locais onde você sente dor:</label><br><br>
+            <input type="checkbox" id="tecnologia" name="tecnologia" value="coluna">
+            <label for="tecnologia">coluna</label>
+            <input type="checkbox" id="tecnologia1" name="tecnologia1" value="joelhos">
+            <label for="tecnologia">joelhos</label>
+            <input type="checkbox" id="tecnologia2" name="tecnologia2" value="pescoço">
+            <label for="tecnologia">pescoço</label>
+            <input type="checkbox" id="tecnologia3" name="tecnologia3" value="lombar">
+            <label for="tecnologia">lombar</label>
+            <input type="checkbox" id="tecnologia4" name="tecnologia4" value="cintura">
+            <label for="tecnologia">cintura</label>
+            <input type="checkbox" id="tecnologia5" name="tecnologia5" value="braços">
+            <label for="tecnologia">braços</label>
+            <input type="checkbox" id="tecnologia6" name="tecnologia6" value="cabeça">
+            <label for="tecnologia">cabeça</label>
+
+        </div>
+        </fieldset>
+
+        <div>
+            <br>
+            <label>Conte um pouco da sua experiencia:</label>
+            <textarea row="6" style="width: 26em;" id="experiencia" name="experiencia"></textarea>
+        </div>
+
+        <button class="botao" type="submit">Concluído</button>
+    </form>
+    
+</body>
+</html>

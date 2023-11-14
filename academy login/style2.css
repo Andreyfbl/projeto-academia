@@ -1,0 +1,27 @@
+body {
+    color: white;
+    background-color: rgb(10, 10, 10);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+
+a {
+    color: white;
+}
+
+body {
+    background-image: url(chamafio.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+
+}
